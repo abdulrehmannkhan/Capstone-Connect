@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CAPSTONECONNECT/static/css/main.f855e6bc.css",
+    "main.js": "/CAPSTONECONNECT/static/js/main.13cfecd0.js",
+    "static/js/592.82ef165f.chunk.js": "/CAPSTONECONNECT/static/js/592.82ef165f.chunk.js",
+    "static/media/logo.svg": "/CAPSTONECONNECT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CAPSTONECONNECT/index.html",
+    "main.f855e6bc.css.map": "/CAPSTONECONNECT/static/css/main.f855e6bc.css.map",
+    "main.13cfecd0.js.map": "/CAPSTONECONNECT/static/js/main.13cfecd0.js.map",
+    "592.82ef165f.chunk.js.map": "/CAPSTONECONNECT/static/js/592.82ef165f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.13cfecd0.js"
+  ]
+}
