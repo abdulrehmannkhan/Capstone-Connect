@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.formcontainerr  h4 {
+    color: black !important;
+    font-size: 20px;
+}
+
+.formcontainerr h2 {
+    color: #4682A9 !important;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 65px;
+}
+
+.formcontainerr {
+    background: white;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+/* login form  */
+.loginform {
+    padding-top: 30px;
+}
+
+.loginform input {
+    margin-bottom: 45px;
+    border-radius: 10px;
+    border: 1px solid #4285F4;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #808080;
+}
+.loginform input::placeholder{
+    font-size: 14px;
+    color: #808080;
+}
+.loginform label {
+    font-size: 16px;
+    color: black;
+}
+
+.loginform button {
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    background: #4682A9;
+    padding: 11px 0;
+}
