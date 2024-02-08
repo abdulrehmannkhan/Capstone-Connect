@@ -20,13 +20,6 @@ function App() {
       </BrowserRouter>
     </>
 
-
-    // <div className="App">
-
-    //   <LoginPage />
-    //   <Calender/> 
-    // </div>
-
   );
 }
 

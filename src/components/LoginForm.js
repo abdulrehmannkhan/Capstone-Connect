@@ -17,7 +17,6 @@ export default function LoginForm() {
                     </div>
 
                     <Link to="/Calender" className='signInBtn'>Sign in</Link>
-                    {/* <button className="btn btn-primary" >Sign in</button> */}
                 </form>
 
             </div>

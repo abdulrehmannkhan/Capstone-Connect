@@ -2,8 +2,6 @@ import illustration from './assets/Illustration.png';
 import React from 'react'
 import LoginForm from './LoginForm'
 import './CompStyle.css'
-// import Calender from './Calender';
-
 
 export default function LoginPage() {
 
