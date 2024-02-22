@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './assets/logo.png'
 import { Link } from 'react-router-dom'
 import Notificaton from './assets/Group 39889.png'
+import userIcon from './assets/user profile.png'
 
 function NavBar() {
   return (
@@ -13,16 +14,16 @@ function NavBar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 topbar">
                             {/* <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li> */
                             <li className="nav-item">   
-                                <img src={Notification} alt="" srcset="" />
+                                <img src={Notificaton} alt="notification-img" srcset="" className='not-img'/>
                             </li> }
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                <img src={userIcon} alt="user-icon" srcset="" />
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><Link className="dropdown-item" to="/">Logout</Link></li>
