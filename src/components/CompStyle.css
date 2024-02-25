@@ -1,7 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-.formcontainerr  h4 {
+
+.formcontainerr h4 {
     color: black !important;
     font-size: 20px;
 }
@@ -33,10 +34,12 @@ body {
     font-size: 14px;
     color: #808080;
 }
-.loginform input::placeholder{
+
+.loginform input::placeholder {
     font-size: 14px;
     color: #808080;
 }
+
 .loginform label {
     font-size: 16px;
     color: black;
@@ -69,7 +72,11 @@ body {
 .header .navbarlogo {
     width: 16%;
 }
-.not-img {width: 33px !important;margin: 0 auto;}
+
+.not-img {
+    width: 33px !important;
+    margin: 0 auto;
+}
 
 .dropdown-toggle::after {
     display: none !important;
@@ -104,6 +111,7 @@ body {
 .header {
     position: fixed;
     top: 0;
+    z-index: 9;
 }
 
 .sidebar-main {
@@ -251,6 +259,7 @@ body {
 .calenderMain .sec1 ul li h5 {
     margin: 0;
 }
+
 .calenderMain .sec1 ul li p {
     margin: 0;
 }
@@ -375,7 +384,7 @@ h2 {
 
 .supervisorMain .supervisor_card:hover {
     background: #4682a9;
-     transition: 0.6s ease-in;
+    transition: 0.6s ease-in;
 }
 
 .supervisorMain .supervisor_card:hover button {
@@ -386,7 +395,7 @@ h2 {
 
 .supervisorMain .supervisor_card:hover p {
     color: white;
-     
+
 }
 
 .supervisorMain .supervisor_card:hover .supervisorSchdule img {
@@ -395,4 +404,624 @@ h2 {
 
 .supervisorMain .supervisor_card:hover h4 {
     color: white;
+}
+
+/* student dashboard */
+
+
+.stdDashMain .banner {
+    width: 100% !IMPORTANT;
+    background: linear-gradient(125deg, rgba(70, 130, 169, 1) 52%, rgba(223, 207, 247, 1) 100%);
+    border-radius: 30px;
+}
+
+.stdDashMain .banner .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.stdDashMain .bannertxt {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.stdDashMain .bannerimg {
+    width: 55%;
+    margin: 0 auto;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stdDashMain .bannerimg img {
+    width: 100%;
+}
+
+.stdDashMain {
+    margin: 0 25px;
+}
+
+.stdDashMain .bannertxt p {
+    color: white;
+}
+
+.stdDashMain .bannertxt h2 {
+    color: white;
+}
+
+.stdDashMain .bannertxt p.curDate {
+    margin-bottom: 30px;
+}
+
+.barcontainer {
+    background-color: #9bc9c7;
+    position: relative;
+    width: 9px;
+    height: 170px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.bar {
+    background-color: #05AF35;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    animation: grow 1.5s ease-out forwards;
+    transform-origin: bottom;
+    border-radius: 20px;
+}
+
+@keyframes grow {
+    from {
+        transform: scaleY(0);
+    }
+}
+
+.latTask ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.latTask ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TaskProgress {
+    margin-top: 20px;
+}
+
+.TaskProgress .progress {width: 48%;}
+
+.latTask {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 16px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.dahboardContent h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.latTask li {
+    margin-top: 15px;
+}
+
+.latTask li .taskName {
+    font-size: 13px;
+}
+
+.latTask li .taskName span {
+    font-size: 15px;
+    color: #4682a9;
+    font-weight: 500;
+}
+
+.timeSpentMain {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.dahboardContent img {
+    width: 100%;
+}
+
+.verticalbarsMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verticalbarsMain {
+    margin-top: 50px;
+}
+
+.barcontainer h5 {
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: #0000007a;
+}
+
+.dahboardContent h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.teamMembersSec {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.SuepervisorsSec {
+    margin-bottom: 30px;
+}
+
+.SuepervisorFeedback h3 {
+    margin-bottom: 13px;
+}
+
+.feebbackMain {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    padding: 25px 15px;
+    padding-bottom: 0;
+}
+
+.feebbackMain p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #00000096;
+}
+
+.feed1 {
+    padding-bottom: 30px;
+}
+
+.feebbackMain button {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    color: #4682a9;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.latTask ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.latTask ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TaskProgress {
+    margin-top: 20px;
+}
+
+.TaskProgress .progress {width: 48%;}
+
+.latTask {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 16px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+.dahboardContent h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.latTask li {
+    margin-top: 15px;
+}
+
+.latTask li .taskName {
+    font-size: 13px;
+}
+
+.latTask li .taskName span {
+    font-size: 15px;
+    color: #4682a9;
+    font-weight: 500;
+}
+
+.timeSpentMain {
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.dahboardContent img {
+    width: 100%;
+}
+
+.verticalbarsMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verticalbarsMain {
+    margin-top: 50px;
+}
+
+.barcontainer h5 {
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    color: #0000007a;
+}
+
+.dahboardContent h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.teamMembersSec {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.SuepervisorsSec {
+    margin-bottom: 30px;
+}
+
+.SuepervisorFeedback h3 {
+    margin-bottom: 13px;
+}
+
+.feebbackMain {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    padding: 25px 15px;
+    padding-bottom: 0;
+}
+
+.feebbackMain p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #00000096;
+}
+
+.feed1 {
+    padding-bottom: 30px;
+}
+
+.feebbackMain button {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    color: #4682a9;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.stdDashSec2 .head h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+
+.stdDashSec2 .card {
+    margin-top: 30px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    padding: 14px;
+}
+
+.stdDashSec2 .head h5:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.stdDashSec2 {
+    margin-top: 20px;
+}
+
+.stdDashSec2 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000014;
+    padding-bottom: 12px;
+}
+
+.stdDashSec2 .head button {
+    border: none;
+    border-radius: 50%;
+    color: #4682a9;
+    /* width: 15px; */
+    /* height: 15px; */
+    padding: 3px 10px;
+    /* line-height: 0; */
+    text-align: center;
+    font-size: 19px;
+}
+
+.stdDashSec2 .task {
+    background: #4682a973;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 3px 24px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.stdDashSec2 p.dscrpt {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.stdDashSec2 .card:hover {
+    background: #4682a9;
+    transition: 0.4s ease-in;
+}
+
+.stdDashSec2 .card:hover p {
+    color: white;
+}
+.stdDashSec2 .card:hover h4 {
+    color: white;
+}
+
+.stdDashSec2 .card:hover p.task {
+    background: black;
+}
+.stdDashSec2 .head h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+
+.stdDashSec2 .card {
+    margin-top: 30px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    padding: 14px;
+}
+
+.stdDashSec2 .head h5:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.stdDashSec2 {
+    margin-top: 20px;
+}
+
+.stdDashSec2 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000014;
+    padding-bottom: 12px;
+}
+
+.stdDashSec2 .head button {
+    border: none;
+    border-radius: 50%;
+    color: #4682a9;
+    /* width: 15px; */
+    /* height: 15px; */
+    padding: 3px 10px;
+    /* line-height: 0; */
+    text-align: center;
+    font-size: 19px;
+}
+
+.stdDashSec2 .task {
+    background: #4682a973;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 3px 24px;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.stdDashSec2 p.dscrpt {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.stdDashSec2 .card:hover {
+    background: #4682a9;
+    transition: 0.4s ease-in;
+}
+
+.stdDashSec2 .card:hover p {
+    color: white;
+}
+.stdDashSec2 .card:hover h4 {
+    color: white;
+}
+
+.stdDashSec2 .card:hover p.task {
+    background: black;
+}
+
+.stdDashSec2 .card .uppersec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stdDashSec2 .card .uppersec img {
+    width: 30px;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.stdDashSec2 .card .uppersec button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.stdDashSec2 .head h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    padding-left: 18px;
+    margin: 0;
+}
+
+.stdDashSec2 .card {
+    margin-top: 30px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    padding: 14px;
+}
+
+.stdDashSec2 .head h5:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.stdDashSec2 {
+    margin-top: 20px;
+}
+
+.stdDashSec2 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000014;
+    padding-bottom: 12px;
+}
+
+.stdDashSec2 .head button {
+    border: none;
+    border-radius: 50%;
+    color: #4682a9;
+    /* width: 15px; */
+    /* height: 15px; */
+    padding: 3px 10px;
+    /* line-height: 0; */
+    text-align: center;
+    font-size: 19px;
+}
+
+.stdDashSec2 .task {
+    background: #4682a973;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 3px 24px;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.stdDashSec2 p.dscrpt {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.stdDashSec2 .card:hover {
+    background: #4682a9;
+    transition: 0.4s ease-in;
+}
+
+.stdDashSec2 .card:hover p {
+    color: white;
+}
+.stdDashSec2 .card:hover h4 {
+    color: white;
+}
+
+.stdDashSec2 .card:hover p.task {
+    background: black;
+}
+
+.stdDashSec2 .card .uppersec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stdDashSec2 .card .uppersec img {
+    width: 30px;
+    margin: 0 auto;
+    margin-right: 0;
+}
+
+.stdDashSec2 .card .uppersec button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.stdDashSec2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stdDashSec2 .col-4 {
+    margin: 0 7px;
+    width: 31%;
+}
+
+.pending h5:before {
+    background: #ffc107 !important;
+}
+
+.cmpleted h5:before {
+    background: #198754 ! IMPORTANT;
 }
