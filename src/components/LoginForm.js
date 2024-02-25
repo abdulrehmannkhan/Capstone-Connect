@@ -16,7 +16,7 @@ export default function LoginForm() {
                         <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Password' />
                     </div>
 
-                    <Link to="/Calender" className='signInBtn'>Sign in</Link>
+                    <Link to="/StudentDashboard" className='signInBtn'>Sign in</Link>
                 </form>
 
             </div>

@@ -264,5 +264,140 @@ body {
     font-size: 18px;
 }
 
-html {
+/* supervisors */
+
+.supervisorMain h2 {
+    color: black;
+    background: transparent;
+    text-align: left;
+    padding: 0 20px;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 12px;
+}
+
+.mainmargins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-top: 8%;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.supervisorMain .super2 {
+    display: flex;
+    flex-direction: row !important;
+    padding: 14px 10px;
+}
+
+.supervisorMain .super2 p {
+    margin-right: 40px;
+    color: #3C3C3C;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.supervisorMain p.availble_s {
+    color: #0CBC8B !important;
+}
+
+.supervisorMain p.occupied_s {
+    color: #F93333 !important;
+}
+
+.supervisorMain .super3 .col-3 {
+    width: 31%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.supervisorMain .super3 {
+    padding: 10px 17px;
+}
+
+.supervisorMain .supervisor_card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 22px;
+}
+
+.supervisorMain .imgSec {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.supervisorMain .imgSec h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.supervisorMain .supervisor_card p {
+    color: #9A9A9A;
+    font-size: 14px;
+}
+
+.supervisorMain .imgSec img {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+}
+
+.supervisorMain .supervisorSchdule {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.supervisorMain .supervisorSchdule div {
+    display: flex;
+    align-items: center;
+}
+
+.supervisorMain .supervisorSchdule p {
+    margin: 0;
+    color: #3C3C3C;
+    font-size: 14px;
+    padding-left: 7px;
+}
+
+.supervisorMain .supervisor_card button {
+    background: #4682A9;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    padding: 9px 0;
+}
+
+.supervisorMain .supervisor_card:hover {
+    background: #4682a9;
+     transition: 0.6s ease-in;
+}
+
+.supervisorMain .supervisor_card:hover button {
+    background: white;
+    color: black;
+    transition: 0.6s ease-in;
+}
+
+.supervisorMain .supervisor_card:hover p {
+    color: white;
+     
+}
+
+.supervisorMain .supervisor_card:hover .supervisorSchdule img {
+    filter: brightness(0)invert(1);
+}
+
+.supervisorMain .supervisor_card:hover h4 {
+    color: white;
 }
