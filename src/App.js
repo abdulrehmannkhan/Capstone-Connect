@@ -7,6 +7,8 @@ import LoginPage from './components/LoginPage';
 import Supervisors from './components/Supervisors';
 import StudentDashboard from './components/StudentDashboard';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PrevProjects from './components/PrevProjects';
+
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <Route path='/Calender' element={<Calender/>}></Route>
           <Route path='/Supervisors' element={<Supervisors/>}></Route>
           <Route path='/StudentDashboard' element={<StudentDashboard/>}></Route>
+          <Route path='/PrevProjects' element={<PrevProjects/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

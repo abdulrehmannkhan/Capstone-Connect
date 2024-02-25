@@ -1025,3 +1025,56 @@ h2 {
 .cmpleted h5:before {
     background: #198754 ! IMPORTANT;
 }
+
+/* prev projects */
+
+.prevProjectMain th {
+    font-size: 14px;
+    color: black;
+}
+
+.prevProjectMain th:nth-child(1) {
+    width: 15%;
+}
+
+.prevProjectMain th:nth-child(2) {
+    width: 18%;
+}
+
+.prevProjectMain th:nth-child(3) {
+    width: 16%;
+}
+
+.prevProjectMain th:nth-child(4) {
+    width: 16%;
+}
+
+.prevProjectMain th:nth-child(5) {
+    width: 26%;
+}
+
+.prevProjectMain td {
+    font-size: 14px;
+}
+
+.prevProjectMain td:nth-child(5) {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-bottom: 4px;
+}
+
+.prevProjectMain td:nth-child(6) {margin: 0 auto;text-align: center;}
+
+.prevProjectMain td:nth-child(6) button {
+    border: none;
+    background: #E7EAEE;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.prevProjectMain td:nth-child(6) button:Hover {
+    background: #4682a9;
+    color: white;
+}
