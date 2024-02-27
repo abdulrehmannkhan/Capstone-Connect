@@ -14,7 +14,6 @@ import vector8 from "./assets/Group 27.png";
 export default function MainSideBar() {
   return (
     <div>
-      
       <div className="sidebar-main">
         <div className="sidebar-items">
             <ul>
@@ -23,8 +22,8 @@ export default function MainSideBar() {
                 <li><Link to='/Supervisors'><img src={vector4} alt="" srcset="" className='sideBarIcon' />Supervisors</Link></li>
                 <li><Link to='/PrevProjects'><img src={vector5} alt="" srcset="" className='sideBarIcon' />Project Repository</Link></li>
                 <li><Link to='/'><img src={vector7} alt="" srcset="" className='sideBarIcon' />FYP Ideas</Link></li>
-                <li><Link to='/'><img src={vector3} alt="" srcset="" className='sideBarIcon' />Submission</Link></li>
-                <li><Link to='/'><img src={vector6} alt="" srcset="" className='sideBarIcon' />Lorem Ipsum</Link></li>
+                <li><Link to='/SubmitProposal'><img src={vector3} alt="" srcset="" className='sideBarIcon' />Submission</Link></li>
+                {/* <li><Link to='/'><img src={vector6} alt="" srcset="" className='sideBarIcon' />Lorem Ipsum</Link></li> */}
             </ul>
         </div>
         <div className="endBtn">
