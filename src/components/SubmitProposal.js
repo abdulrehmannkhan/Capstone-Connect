@@ -14,6 +14,7 @@ function SubmitProposal() {
 
     return (
         <div>
+            
             <NavBar />
             <MainSideBar />
             <div className='mainmargins'>

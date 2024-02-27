@@ -1326,3 +1326,123 @@ h2 {
 }
 
 .subStatus {margin: 20px 0;}
+
+/* supervisor proposal */
+
+.accordion {
+    width: 100%;
+}
+
+.accordion .accordion-item {
+    margin-bottom: 35px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px 24px;
+}
+
+.accordion .accordion-item {
+    width: 100%;
+}
+
+.accordion .accordion-item .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion .accordion-item .accordion-header h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.accordion .accordion-item .accordion-header p {
+    margin: 0;
+}
+
+.pStatus {
+    background: #e0090985;
+    color: white !important;
+    padding: 6px 15px;
+    border-radius: 8px;
+}
+
+.accordion-arrow {
+    border: none;
+    background: #4682a9;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.accordion-content {
+    padding-top: 18px;
+}
+
+.accordion-buttons button {
+    margin-right: 20px !IMPORTANT;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 10px;
+    background: #ff0000b8;
+    color: white;
+}
+
+.statusApv {
+    background: #09E039 !important;
+}
+
+.accordion-content p {
+    font-size: 15px;
+}
+
+.tabs .tab:hover {
+    cursor: pointer;
+}
+
+.tabs-container .tabs {
+    display: flex;
+}
+
+.tabs-container .tabs .tab {
+    margin-right: 30px;
+    color: #707070;
+}
+
+.tabs-container {
+    padding-top: 10px;
+}
+
+.tab-content {
+    margin-top: 30px;
+}
+
+.ProposalsMaainn {
+    padding: 0 30px;
+}
+
+
+.tabs-container .tabs .tab.active {
+    color: black;
+    font-weight: 500;
+}
+
+.open {
+    background: #4682a9 ! IMPORTANT;
+}
+
+.open .accordion-header h3 {
+    color: white;
+}
+
+.open .accordion-header p {
+    color: white;
+}
+.open .accordion-content p {
+    color: white;
+}
+
+
+.open .accordion-arrow {
+    background: black;
+}

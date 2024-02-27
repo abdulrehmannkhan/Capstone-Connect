@@ -1,0 +1,20 @@
+import React, { useState } from 'react';
+
+const ToggleComponent = () => {
+  const [isToggled, setIsToggled] = useState(false);
+
+  const handleToggle = () => {
+    setIsToggled(!isToggled);
+  };
+
+  return (
+    <div>
+      <h2>{isToggled ? 'Toggle is ON' : 'Toggle is OFF'}</h2>
+      <button onClick={handleToggle}>
+        {isToggled ? 'Turn OFF' : 'Turn ON'}
+      </button>
+    </div>
+  );
+};
+
+export default ToggleComponent;

@@ -9,8 +9,7 @@ import StudentDashboard from './components/StudentDashboard';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PrevProjects from './components/PrevProjects';
 import SubmitProposal from './components/SubmitProposal';
-
-
+import Proposals from './components/Proposals';
 
 
 
@@ -26,6 +25,7 @@ function App() {
           <Route path='/StudentDashboard' element={<StudentDashboard/>}></Route>
           <Route path='/PrevProjects' element={<PrevProjects/>}></Route>
           <Route path='/SubmitProposal' element={<SubmitProposal/>}></Route>
+          <Route path='/Proposals' element={<Proposals/>}></Route>
           
           
         </Routes>
