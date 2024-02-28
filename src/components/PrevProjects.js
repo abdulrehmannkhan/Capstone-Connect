@@ -1,6 +1,7 @@
 import React from 'react'
 import MainSideBar from './MainSideBar'
 import NavBar from './NavBar'
+import { Link } from 'react-router-dom'
 import { useEffect } from "react";
 
 
@@ -65,14 +66,14 @@ function PrevProjects() {
                                         <td>John Doe</td>
                                         <td>Jane Supervisor</td>
                                         <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                                        <td><button>View</button></td>
+                                        <td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>002</td>
                                         <td>Project Beta</td>
                                         <td>Alice Smith</td>
                                         <td>Bob Manager</td>
-                                        <td>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td><td><button>View</button></td>
+                                        <td>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>003</td>
@@ -80,56 +81,56 @@ function PrevProjects() {
                                         <td>Charlie Brown</td>
                                         <td>Eve Director</td>
                                         <td>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</td>
-                                        <td><button>View</button></td>
+                                        <td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>004</td>
                                         <td>Project Delta</td>
                                         <td>Emily Johnson</td>
                                         <td>David Head</td>
-                                        <td>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</td><td><button>View</button></td>
+                                        <td>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>005</td>
                                         <td>Project Epsilon</td>
                                         <td>Michael Green</td>
                                         <td>Susan Manager</td>
-                                        <td>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</td><td><button>View</button></td>
+                                        <td>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>006</td>
                                         <td>Project Zeta</td>
                                         <td>Olivia White</td>
                                         <td>Chris Supervisor</td>
-                                        <td>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td><td><button>View</button></td>
+                                        <td>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>007</td>
                                         <td>Project Eta</td>
                                         <td>James Black</td>
                                         <td>Emma Director</td>
-                                        <td>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td><td><button>View</button></td>
+                                        <td>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>008</td>
                                         <td>Project Theta</td>
                                         <td>Sophia Brown</td>
                                         <td>Liam Manager</td>
-                                        <td>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td><td><button>View</button></td>
+                                        <td>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>009</td>
                                         <td>Project Iota</td>
                                         <td>Logan Grey</td>
                                         <td>Abigail Head</td>
-                                        <td>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td><td><button>View</button></td>
+                                        <td>Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                     <tr>
                                         <td>010</td>
                                         <td>Project Kappa</td>
                                         <td>Ava Johnson</td>
                                         <td>Noah Supervisor</td>
-                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td><td><button>View</button></td>
+                                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td><td><Link to='/ProjectPage'><button>View</button></Link></td>
                                     </tr>
                                 </tbody>
                             </table>

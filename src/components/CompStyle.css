@@ -1446,3 +1446,48 @@ h2 {
 .open .accordion-arrow {
     background: black;
 }
+
+/* Project Inner Page  */
+
+.project-page {
+    margin: 0 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .project-page .project-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 11px;
+  }
+  
+  .project-page .project-info p {
+    margin-bottom: 10px;
+  }
+  
+  .project-page button {
+    background-color: #4682a9cf;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .project-page button:hover {
+    background-color: #4682a9;
+  }
+  
+  .project-page h2 {
+    color: #4682a9;
+    border-bottom: 2px solid #4682a9;
+    padding-bottom: 10px;
+  }
+  

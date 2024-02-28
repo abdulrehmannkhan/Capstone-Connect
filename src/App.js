@@ -10,6 +10,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PrevProjects from './components/PrevProjects';
 import SubmitProposal from './components/SubmitProposal';
 import Proposals from './components/Proposals';
+import SupProjects from './components/SupProjects';
+import ProjectPage from './components/ProjectPage';
 
 
 
@@ -26,7 +28,8 @@ function App() {
           <Route path='/PrevProjects' element={<PrevProjects/>}></Route>
           <Route path='/SubmitProposal' element={<SubmitProposal/>}></Route>
           <Route path='/Proposals' element={<Proposals/>}></Route>
-          
+          <Route path='/SupProjects' element={<SupProjects/>}></Route>
+          <Route path='/ProjectPage' element={<ProjectPage/>}></Route>
           
         </Routes>
       </BrowserRouter>
