@@ -14,6 +14,7 @@ import SupProjects from './components/SupProjects';
 import ProjectPage from './components/ProjectPage';
 import SupervisorDashboard from './components/SupervisorDashboard';
 import ProjectInner from './components/ProjectInner';
+import AdminCalender from './components/AdminCalender';
 
 
 
@@ -34,7 +35,7 @@ function App() {
           <Route path='/ProjectPage' element={<ProjectPage/>}></Route>
           <Route path='/SupervisorDashboard' element={<SupervisorDashboard/>}></Route>
           <Route path='/ProjectInner' element={<ProjectInner/>}></Route>
-          
+          <Route path='/AdminCalender' element={<AdminCalender/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

@@ -1651,3 +1651,18 @@ h2 {
     position: relative;
     left: -45px;
 }
+
+/* admin calender  */
+
+button.addmore {
+    position: absolute;
+    right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 20px;
+    top: 0px;
+}
+
+.sec1 {
+    position: relative;
+}
