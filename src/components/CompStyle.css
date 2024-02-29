@@ -1491,3 +1491,163 @@ h2 {
     padding-bottom: 10px;
   }
   
+  /* supervisor dashboard  */
+
+  .supDashMain {
+    width: 100%;
+    margin: 0 3%;
+}
+
+.supDashMain .banner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 17px 20px;
+}
+
+.supDashMain .bannerimg img {
+    width: 100%;
+}
+
+.supDashMain .bannerimg {width: 12%;margin-right: 20px;}
+
+.supDashMain .bannertxt p {
+    margin: 0;
+}
+
+.projOvr {
+    margin-top: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 27px 20px;
+}
+
+.projOvr h2 {
+    font-size: 24px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.project-card h3 {
+  color: #333;
+}
+
+.project-card p {
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.progress-bar-container {
+  height: 14px;
+  background-color: #eee;
+  border-radius: 4px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50; /* Green color for progress */
+}
+
+
+.projOvr h2 {
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.project-card:hover {
+    background: #4682a9 !important;
+}
+
+.project-card h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.project-card h4 {
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.project-card p strong {
+    color: #4682a9;
+}
+
+.project-card 
+ .progress-bar-container p {
+    color: #4caf50;
+}
+
+.project-card p.progr {
+    color: #000000 !important;
+    font-size: 14px;
+}
+
+.project-card button {
+    border: none;
+    background: #4682a9;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 11px;
+}
+
+.project-card:hover h3 {
+    color: white;
+    text-decoration: underline;
+}
+
+.project-card:hover p {
+    color: white;
+}
+
+.project-card:hover strong {
+    color: white;
+}
+
+.project-card:hover h4 {
+    color: white;
+    text-decoration: underline;
+}
+
+.project-card:hover button {
+    background: black;
+}
+
+
+/* Project inner page  */
+  
+.projInerMain {
+    width: 100%;
+    margin: 0 2%;
+}
+
+.projInerMain .pi1 h3 {
+    font-size: 20px;
+}
+
+.projInerMain .pi2 {
+    margin: 30px 0;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.projInerMain .pi2 .col-4:nth-child(2) {
+    position: relative;
+    left: -45px;
+}

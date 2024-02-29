@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ projectName, projectLead, description, progress }) => {
     return (
@@ -16,7 +17,7 @@ const ProjectCard = ({ projectName, projectLead, description, progress }) => {
             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar" style={{width: `${progress}%`}}>{progress}% Complete</div>
             </div>
-            <button>View Project</button>
+            <Link to='/ProjectInner'><button>View Project</button></Link>
         </div>
     );
 };

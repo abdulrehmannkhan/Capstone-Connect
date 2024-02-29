@@ -13,6 +13,7 @@ import Proposals from './components/Proposals';
 import SupProjects from './components/SupProjects';
 import ProjectPage from './components/ProjectPage';
 import SupervisorDashboard from './components/SupervisorDashboard';
+import ProjectInner from './components/ProjectInner';
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/SupProjects' element={<SupProjects/>}></Route>
           <Route path='/ProjectPage' element={<ProjectPage/>}></Route>
           <Route path='/SupervisorDashboard' element={<SupervisorDashboard/>}></Route>
+          <Route path='/ProjectInner' element={<ProjectInner/>}></Route>
           
         </Routes>
       </BrowserRouter>
