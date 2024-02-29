@@ -12,6 +12,7 @@ import SubmitProposal from './components/SubmitProposal';
 import Proposals from './components/Proposals';
 import SupProjects from './components/SupProjects';
 import ProjectPage from './components/ProjectPage';
+import SupervisorDashboard from './components/SupervisorDashboard';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/Proposals' element={<Proposals/>}></Route>
           <Route path='/SupProjects' element={<SupProjects/>}></Route>
           <Route path='/ProjectPage' element={<ProjectPage/>}></Route>
+          <Route path='/SupervisorDashboard' element={<SupervisorDashboard/>}></Route>
           
         </Routes>
       </BrowserRouter>
