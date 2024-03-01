@@ -192,9 +192,6 @@ body {
 
 
 /* calendar */
-
-.conatiner.calenderMain {}
-
 .calenderMain {
     display: flex;
     justify-content: center;
@@ -236,7 +233,6 @@ body {
     border-bottom: 2px solid black;
     width: fit-content;
     margin: 20px auto;
-    /* margin-top: 20px; */
 }
 
 .calenderMain .sec1 ul {
@@ -502,7 +498,9 @@ h2 {
     margin-top: 20px;
 }
 
-.TaskProgress .progress {width: 48%;}
+.TaskProgress .progress {
+    width: 48%;
+}
 
 .latTask {
     background: white;
@@ -622,7 +620,9 @@ h2 {
     margin-top: 20px;
 }
 
-.TaskProgress .progress {width: 48%;}
+.TaskProgress .progress {
+    width: 48%;
+}
 
 .latTask {
     background: white;
@@ -770,10 +770,7 @@ h2 {
     border: none;
     border-radius: 50%;
     color: #4682a9;
-    /* width: 15px; */
-    /* height: 15px; */
     padding: 3px 10px;
-    /* line-height: 0; */
     text-align: center;
     font-size: 19px;
 }
@@ -800,6 +797,7 @@ h2 {
 .stdDashSec2 .card:hover p {
     color: white;
 }
+
 .stdDashSec2 .card:hover h4 {
     color: white;
 }
@@ -807,6 +805,7 @@ h2 {
 .stdDashSec2 .card:hover p.task {
     background: black;
 }
+
 .stdDashSec2 .head h5 {
     text-transform: uppercase;
     font-size: 16px;
@@ -850,10 +849,7 @@ h2 {
     border: none;
     border-radius: 50%;
     color: #4682a9;
-    /* width: 15px; */
-    /* height: 15px; */
     padding: 3px 10px;
-    /* line-height: 0; */
     text-align: center;
     font-size: 19px;
 }
@@ -881,6 +877,7 @@ h2 {
 .stdDashSec2 .card:hover p {
     color: white;
 }
+
 .stdDashSec2 .card:hover h4 {
     color: white;
 }
@@ -907,6 +904,7 @@ h2 {
     border: none;
     padding: 0;
 }
+
 .stdDashSec2 .head h5 {
     text-transform: uppercase;
     font-size: 16px;
@@ -950,10 +948,7 @@ h2 {
     border: none;
     border-radius: 50%;
     color: #4682a9;
-    /* width: 15px; */
-    /* height: 15px; */
     padding: 3px 10px;
-    /* line-height: 0; */
     text-align: center;
     font-size: 19px;
 }
@@ -981,6 +976,7 @@ h2 {
 .stdDashSec2 .card:hover p {
     color: white;
 }
+
 .stdDashSec2 .card:hover h4 {
     color: white;
 }
@@ -1065,7 +1061,10 @@ h2 {
     padding-bottom: 4px;
 }
 
-.prevProjectMain td:nth-child(6) {margin: 0 auto;text-align: center;}
+.prevProjectMain td:nth-child(6) {
+    margin: 0 auto;
+    text-align: center;
+}
 
 .prevProjectMain td:nth-child(6) button {
     border: none;
@@ -1307,9 +1306,11 @@ h2 {
 .submitProposalMain form input::placeholder {
     color: #D0D5DD;
 }
+
 .submitProposalMain form textarea::placeholder {
     color: #D0D5DD;
 }
+
 .submitProposalMain form select::placeholder {
     color: #D0D5DD;
 }
@@ -1321,11 +1322,14 @@ h2 {
     border-radius: 5px;
     padding: 12px 40px;
 }
+
 .subStatus span {
     color: red;
 }
 
-.subStatus {margin: 20px 0;}
+.subStatus {
+    margin: 20px 0;
+}
 
 /* supervisor proposal */
 
@@ -1438,6 +1442,7 @@ h2 {
 .open .accordion-header p {
     color: white;
 }
+
 .open .accordion-content p {
     color: white;
 }
@@ -1455,22 +1460,22 @@ h2 {
     background-color: #f9f9f9;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-  }
-  
-  .project-page .project-info {
+}
+
+.project-page .project-info {
     margin-top: 20px;
     padding: 15px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 11px;
-  }
-  
-  .project-page .project-info p {
+}
+
+.project-page .project-info p {
     margin-bottom: 10px;
-  }
-  
-  .project-page button {
+}
+
+.project-page button {
     background-color: #4682a9cf;
     color: #fff;
     padding: 12px 24px;
@@ -1479,21 +1484,21 @@ h2 {
     cursor: pointer;
     font-size: 18px;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .project-page button:hover {
+}
+
+.project-page button:hover {
     background-color: #4682a9;
-  }
-  
-  .project-page h2 {
+}
+
+.project-page h2 {
     color: #4682a9;
     border-bottom: 2px solid #4682a9;
     padding-bottom: 10px;
-  }
-  
-  /* supervisor dashboard  */
+}
 
-  .supDashMain {
+/* supervisor dashboard  */
+
+.supDashMain {
     width: 100%;
     margin: 0 3%;
 }
@@ -1512,7 +1517,10 @@ h2 {
     width: 100%;
 }
 
-.supDashMain .bannerimg {width: 12%;margin-right: 20px;}
+.supDashMain .bannerimg {
+    width: 12%;
+    margin-right: 20px;
+}
 
 .supDashMain .bannertxt p {
     margin: 0;
@@ -1530,34 +1538,35 @@ h2 {
 }
 
 .project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 0px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 .project-card h3 {
-  color: #333;
+    color: #333;
 }
 
 .project-card p {
-  color: #666;
-  margin-bottom: 6px;
+    color: #666;
+    margin-bottom: 6px;
 }
 
 .progress-bar-container {
-  height: 14px;
-  background-color: #eee;
-  border-radius: 4px;
-  margin-top: 12px;
-  overflow: hidden;
+    height: 14px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin-top: 12px;
+    overflow: hidden;
 }
 
 .progress-bar {
-  height: 100%;
-  background-color: #4caf50; /* Green color for progress */
+    height: 100%;
+    background-color: #4caf50;
+    /* Green color for progress */
 }
 
 
@@ -1585,8 +1594,7 @@ h2 {
     color: #4682a9;
 }
 
-.project-card 
- .progress-bar-container p {
+.project-card .progress-bar-container p {
     color: #4caf50;
 }
 
@@ -1629,7 +1637,7 @@ h2 {
 
 
 /* Project inner page  */
-  
+
 .projInerMain {
     width: 100%;
     margin: 0 2%;
@@ -1665,4 +1673,71 @@ button.addmore {
 
 .sec1 {
     position: relative;
+}
+
+/* admin queries */
+
+.Adminquery th:nth-child(3) {
+    width: 55%;
+}
+
+.Adminquery button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+}
+
+.QueryRespMain {
+    width: 93%;
+}
+
+.QueryRespMain form {
+    margin-top: 30px;
+}
+
+.QueryRespMain label {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.QueryRespMain button {
+    margin: 30px 0;
+    border-radius: 8px;
+    background: #4682a9;
+    color: white;
+    border: none;
+    padding: 12px 50px;
+}
+
+.QueryRespMain h2 {
+    text-decoration: underline;
+}
+
+.Adminquery h2 {
+    text-decoration: underline;
+    margin-bottom: 17px;
+}
+.AdminDocsMain button{
+    border-radius: 8px;
+    background: #4682a9;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin-right: 15px;
+}
+
+.AdminDocsMain {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.AdminDocsMain button:hover {
+    background: black;
+    transition: 0.5s;
+}
+
+.AdminDocsMain h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
 }

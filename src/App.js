@@ -15,6 +15,9 @@ import ProjectPage from './components/ProjectPage';
 import SupervisorDashboard from './components/SupervisorDashboard';
 import ProjectInner from './components/ProjectInner';
 import AdminCalender from './components/AdminCalender';
+import AdminQueries from './components/AdminQueries';
+import QueryResponse from './components/QueryResponse';
+import AdminDocs from './components/AdminDocs';
 
 
 
@@ -36,6 +39,10 @@ function App() {
           <Route path='/SupervisorDashboard' element={<SupervisorDashboard/>}></Route>
           <Route path='/ProjectInner' element={<ProjectInner/>}></Route>
           <Route path='/AdminCalender' element={<AdminCalender/>}></Route>
+          <Route path='/AdminQueries' element={<AdminQueries/>}></Route>
+          <Route path='/QueryResponse' element={<QueryResponse/>}></Route>
+          <Route path='/AdminDocs' element={<AdminDocs/>}></Route>
+          
         </Routes>
       </BrowserRouter>
     </>
