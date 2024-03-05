@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MainSideBar from './MainSideBar';
+import SupSideBar from './SupSideBar';
 import NavBar from './NavBar';
 
 const AccordionItem = ({ projectNo, projectName, littleDescription, moreDescription, proposalDate }) => {
@@ -68,7 +68,7 @@ function Proposals() {
     return (
         <div>
             <NavBar />
-            <MainSideBar />
+            <SupSideBar />
             <div className='mainmargins'>
                 <div className='container'>
                     <div className="row">

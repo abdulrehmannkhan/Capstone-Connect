@@ -1,5 +1,5 @@
 import React from 'react'
-import MainSideBar from './MainSideBar'
+import SupSideBar from './SupSideBar'
 import NavBar from './NavBar'
 import BannerImg from './assets/Group 39890.png'
 import dots from './assets/icons8-dots-30.png'
@@ -10,7 +10,7 @@ function StudentDashboard() {
     return (
         <div>
             <NavBar />
-            <MainSideBar />
+            <SupSideBar />
             <div className='mainmargins'>
                 <div className="stdDashMain">
                     <div className="banner">
